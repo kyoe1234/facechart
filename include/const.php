@@ -1,8 +1,9 @@
 <?
+define('DOMAIN', 'kyoe.blogcocktail.com');
 //define('DOMAIN', '14.63.221.243/facechart');
 
-// dns 서버 재설치 전까지 임시로 ip주소를 사용한다.
-define('DOMAIN_WEB', 'kyoe.blogcocktail.com/facechart/');
+// dns 서버 재설치 전까지 임시로 kyoe.blogcocktail.com 을 사용한다.
+define('DOMAIN_WEB', 'kyoe.blogcocktail.com/facechart');
 //define('DOMAIN_WEB', 'facechart.org');
 
 // dns 서저 재설치 전까지 정적파일과 스테틱파일 도메인은 사용하지 않는다.
