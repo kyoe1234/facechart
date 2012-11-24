@@ -1,3 +1,1 @@
-<?
-require_once '../../include/startup.php';
-?>
+../../include/startup.php
