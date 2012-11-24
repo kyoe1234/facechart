@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="pragma" content="no-cache" />
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>faceChart</title>
+	
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	
+	<script src="/appspresso/appspresso.js"></script>
+	<script type="text/javascript" src="js/iscroll4/iscroll.js"></script>
+	
+	<script src="locale-language.js"></script>
+	
+	<!-- simple ui library -->
+	<script type="text/javascript" src="js/xx_page.js"></script>
+	<script type="text/javascript" src="js/xx_scroll.js"></script>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		//activate ax.log(), comment out when you release app
+		ax.runMode = ax.MODE_DEBUG;
+		ax.log("main Start!!!");
+	</script>
+</head>
+<body onload="init();">
+<div class="bodyWrapper">
+
+	<!-- page intro 
+	<div class="page" id="pageIntro">
+		<div class="wrapper" id="wrapperIntro">
+			<div id="topImg"></div>
+			<div id="bottomImg"></div>
+		</div>
+	</div>
+	-->
+	<div class="page" id="pageIntro"></div>
+	
+	<!-- page main -->
+	<div class="page" id="pageMain">
+		<div class="header">
+           <div class='left'><button id="menuBtn" class="hires menu"></button></div>
+           <div class='center'></div>
+           <div class='right'><button id="tournamentBtn" class='hires'></button></div>
+		</div>
+		<div class="wrapper" id="wrapperMain">
+			<div class="scroller">
+				<ol id="chartList" class="content"></ol>
+			</div>
+		</div>
+	</div>
+	
+	<!-- page menu -->
+	<div class="page" id="pageMenu">
+		<div class="header">
+	           <div class='center'><span><input type="text" placeholder="tag" /></span></div>
+	           <div class='right'><button id="testBtn" class='hires'>+</button></div>
+			</div>
+			<div class="wrapper" id="wrapperMenu">
+				<div class="scroller">
+					<div id="menuList" class="content">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pageMenuCloseArea" onclick="toggleMenu();"></div>
+	
+	<!-- page Room -->
+	<div class="page hide" id="pageRoom">
+		<div id="roomHeader" class="header">
+			<div class='left'><button id="menuBtn" class="hires menu"></button></div>
+			<div class='center'><h2 id='roomTitle'></h2><div id='sroom'></div></div>
+			<div class='right'><button id="uploadBtn" class='hires'></button></div>
+		</div>
+		<div id="replyHeader" class="header">
+			<div class='left'><button id="replyCancleBtn" class="back"></button></div>
+			<div class='center'></div>
+		</div>
+		<div class="wrapper" id="wrapper_page_room">
+			<div class="scroller">
+				<ul id='roomDataList' class="content">
+					<!-- li>
+						<div class="roomMainRow">
+							<span class="liTitle"></span>
+							<span class="liDate"></span>
+							<span class="liPoints"></span>
+							<span class="liComments"></span>
+							<Button id="commentWrite"></Button>
+						</div>
+						<img class="roomMainRowImage" src="">
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor"></span>
+								<span class="roomCommentRowDate"></span>
+							</div>
+							<div class="roomCommentRowContent"></div>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- page Login -->
+	<div class="page hide" id="pageLogin">
+		<div id="loginLogo"></div>
+		<div id="loginBox">
+			<div id="loginInnerBox">
+				<input id="inputId" type="email"></input>
+				<input id="inputPass" type="password"></input>
+			</div>
+			<button id="loginBtn"></button>
+		</div>
+		<div><span id="linkSignupLabel" class="txt"></span><a id="linkSignup"></a></div>
+		<div><span id="linkTournamentLabel" class="txt"></span><a id="linkTournament"></a></div>
+		<div><span id="linkResignupLabel" class="txt"></span><a id="linkResignup"></a></div>
+	</div>
+	
+	<!-- page Signup -->
+	<div class="page hide" id="pageSignup">
+		<div class="header">
+           <div class='left'><button id="goLoginpageBtn" class="back"></button></div>
+           <div class='center'></div>
+		</div>
+		<div class="wrapper" id="wrapperSignup">
+			<div id="singupBox">
+				<input id="signupEmail" type="email"></input>
+				<input id="signupName" type="text"></input>
+				<input id="signupPass" type="password"></input>
+				<input id="signupRePass" type="password"></input>
+			</div>
+			<button id="signupBtn"></button>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

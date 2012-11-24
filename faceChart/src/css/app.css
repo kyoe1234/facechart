@@ -1,0 +1,230 @@
+button {  font-size: 13px;  line-height: 36px;  font-family: sans-serif;  font-weight: bold;  color: #fff;  padding: 0 15px;  border: solid 1px;  border-color: #A62AB2 #9E26A6 #751C7D;  border-radius: 3px;  background: -webkit-gradient( linear, left top, left bottom,              from(#AA30B5), to(#641471) );  box-shadow: inset 0 1px 0 rgba(255,255,255,.2),              0 1px 1px rgba(0,0,0,.08);  text-shadow: 0 -1px 0 rgba(0,0,0,.25);}
+button.color-red {  background: -webkit-gradient( linear, left top, left bottom,              from(#DD600F), to(#CC3B04) );}
+button.pressed{  background: -webkit-gradient( linear, left top, left bottom,              from(#641471), to(#AA30B5) );}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+       only screen and (min-device-pixel-ratio:1.5) {
+             button { border:none; padding:0 16px; box-shadow: inset 0 0 1px #000, inset 0 1px 0 #ED77F8, 0 1px 1px -1px rgba(0, 0, 0, .5);} }
+
+/*page intro
+#pageIntro{width:100%; height:100%; background: url('../image/introbg.png') 0 0 no-repeat; background-size:cover;}
+#pageIntro #topImg{width:86%;height:55%; margin:0% 7%; background:url('../image/introtop.png') center center no-repeat; background-size:contain;}
+#pageIntro #bottomImg{position:absolute;bottom:10px;width:60%;height:7%; margin-left:20%; background:url('../image/introbottom.png') center bottom no-repeat; background-size:contain;}
+*/
+#pageIntro{width:100%; height:100%; background: url('../image/splash.png') 0 0 no-repeat; background-size:100% 100%;}
+
+/*page Login*/
+#pageLogin{padding-left:5%;padding-right:5%; width:90%; height:100%; background: url('../image/introbg.png') 0 0 no-repeat; background-size:cover;z-index:1000;}
+#pageLogin #loginLogo{width:100%;height:25%;margin-bottom:7%;background:url('../image/loginlogo.png') center bottom no-repeat; background-size:contain;}
+#pageLogin #loginBox{margin-left:3%;width:97%;height:20%; margin-bottom:20%;}
+#pageLogin #loginBox #loginInnerBox{width:70%;height:100%;display:inline-block;background:url('../image/loginbox.png') left center no-repeat;background-size:100%;}
+#pageLogin #loginBox input{margin:6% 7% 0 6%;width:83%;height:30%;font-size:1.2em;padding-left:5px;}
+#pageLogin #loginBox input#inputPass{bottom:0;}
+#pageLogin #loginBox button{width:25%;height:100%;background:url('../image/loginbtn.png') right center no-repeat; background-size:contain;border:none;float:right;box-shadow:none;}
+#pageLogin #loginBox button.pressed{background:url('../image/loginbtnactive.png') right center no-repeat;}
+#pageLogin .txt{margin-left:3%;width:97%;margin-top:5%;heiht:30px;color:#808080;letter-spacing:-1px;font-size:13px;}
+#pageLogin a{color:#ffffff;text-decoration:underline;float:right;}
+
+/*page Signup*/
+#pageSignup{z-index:1001;}
+#pageSignup .header .center{position:absolute;margin-top:3px; width:210px; height:inherit; line-height:120%; background:url('../image/jointitle.png') center top no-repeat; background-size:20% auto;}
+#pageSignup .header .left .back{background:url('../image/backbtn.png') center center no-repeat;background-size:50% auto;}
+#pageSignup .header .left .back.pressed{background:url('../image/backbtnactive.png') center center no-repeat;}
+#pageSignup .wrapper{top:0;width:100%;height:100%;float:left;position:relative;background-color:#f0f0f0; background-image:url('../image/joinlogo.png');background-repeat:no-repeat;background-size:40% auto;background-position:90% 83%; }
+
+#pageSignup #singupBox{margin:5% 5% 0;padding:1%;width:88%;height:200px;background:url('../image/joinbox.png') 0 0 no-repeat;background-size:100% 100%;}
+#pageSignup #singupBox input{font-size:1.2em;padding-left:5px;width: 98%; height:45px; background-color:transparent; border: none; border-bottom: 1px dotted #BF8EB6;-webkit-border-radius:0; -webkit-box-shadow:0; box-shadow:0; -webkit-appearance: none;}
+#pageSignup #singupBox input:last-child{border-bottom:none;}
+#pageSignup button#signupBtn{margin-left:25%;margin-top:10px;width:50%;height:50px;background:url('../image/joinbtn.png') top center no-repeat; background-size:contain;border:none;box-shadow:none;}
+#pageSignup button#signupBtn.pressed{background:url('../image/joinbtnactive.png') top center no-repeat;}
+
+/*setMenu Head background color*/
+#pageMenu .header{    background-image: -webkit-gradient( linear, left top, left bottom, from(#5B4357), to(#382335));}
+#pageMenu .header input{font-size: 15px;line-height: 20px; }
+/*setMenu list background color*/
+#pageMenu .wrapper{color: #ddd;background-color: #493244;top: 44px;bottom: 0;}
+#pageMenu a{color: #ddd;text-shadow: 0 1px 0 rgba(0, 0, 0, .6);}
+/*setMenu list line color*/
+#pageMenu .wrapper .menu-item {font-size: 16px;line-height: 18px;#height: 60px;background-color: #493244;border-bottom: 1px solid #382434;border-top: 1px solid #574252;-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);padding: 14px 0 14px 47px;}
+#pageMenu .wrapper .split{height: 20px;}
+#pageMenu .wrapper .wac,#pageMenu .wrapper .extension,#pageMenu .wrapper .demo{background:  url('../image/wac.png') 0 0 no-repeat;display: block;float: right;width: 25px;height: 25px;margin-top: -3px;margin-right: 10px;-webkit-background-size: 100% 100%;}
+
+/*count*/
+#pageMenu .wrapper .count{float:right;margin-right: 15px;}
+/*tag x*/
+#pageMenu .wrapper .cross{background:  url('../image/button_cross.png') 0 0 no-repeat;display: block;float: right;width: 35px;height: 35px;margin-top: -3px;margin-right: 10px;-webkit-background-size: 100% 100%;}
+/*tag*/
+#pageMenu .wrapper .menu-item.tagP .tag{font-size: 13px;line-height: 15px;#height: 60px;background-color: #493244;border: 1px solid #382434;-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);padding: 3px 3px;margin: 3px 3px;}
+
+#pageMenu .wrapper .extension{background:  url('../image/appspresso.png') 0 0 no-repeat;}
+#pageMenu .wrapper .demo{width: 28px;height: 28px;margin-top: -5px;background:  url('../image/LightOff.png') 0 0 no-repeat;}
+#pageMenu .wrapper .menu-item.devicestatus {background:  url('../image/Gears.png') 6px 8px no-repeat; }
+#pageMenu .wrapper .menu-item.filesystem {background:  url('../image/Filesystem.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.file-explorer {background:  url('../image/Folder.png') 8px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.video {background:  url('../image/video.png') 8px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.photo {background:  url('../image/photo.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.messaging {background:  url('../image/Bubble4.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.liveview {background:  url('../image/Wizard.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.accelerometer {background:  url('../image/Target.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.geolocation {background:  url('../image/Dot.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.orientation {background:  url('../image/Number.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.vibrator {background:  url('../image/Tilde.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.notifier {background:  url('../image/Colon.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.contacts {background:  url('../image/Users.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.curl {background:  url('../image/Network.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.media {background:  url('../image/Media.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.upload {background:  url('../image/Upload.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.sendmail {background:  url('../image/Mail.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.unzip {background:  url('../image/Properties.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.playsound {background:  url('../image/Music.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.zip {background:  url('../image/FolderOpen.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.dialogue {background:  url('../image/Hand.png') 4px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.twitter {background:  url('../image/Twitter_32x32.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.facebook {background:  url('../image/facebook_32.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.social-update {background:  url('../image/Bubble6.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.childbrowser {background:  url('../image/Globe.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.download {background:  url('../image/Download.png') 6px 7px no-repeat; }
+#pageMenu .wrapper .menu-item.admob {background:  url('../image/Dollar2.png') 6px 7px no-repeat; }
+#pageMenu .touched {#-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .01);background-color: #4D3366;}
+/*setMenu list title*/
+#pageMenu .wrapper .menu-item.d0 {padding: 2px 10px 4px 10px;background: -webkit-gradient( linear, left top, left bottom, from(#5C4257), to(#51384D) );border-bottom: 1px solid #382434;-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);text-align: center;}
+#pageMenu .wrapper .menu-item.d1 a{#padding-left: 20px;}
+#pageMenu .wrapper .menu-item.d1.tagP a{#padding-left: 0px;}
+.noScroll {display: none;}
+
+/* main page - share */
+#social_update .share,#pageMain .share {position: absolute;right: 5%;top: 75%;}
+#social_update .share div,#pageMain .share div{#border: 1px solid #000;float: left;}
+#social_update .share .facebook,#pageMain .share .facebook{width: 45px;height: 45px;background:  url('../image/facebook_32.png') 8px 8px no-repeat;opacity: 0.3;}
+#social_update .share .twitter,#pageMain .share .twitter{width: 45px;height: 45px;background:  url('../image/Twitter_32x32.png') 8px 8px no-repeat;opacity: 0.3;}
+#social_update .share .msg,#pageMain .share .msg{width: 140px;color: ##738ABA;padding: 14px 0 0 10px;}
+
+/* main page - iscroll 
+#pageMain .wrapper {top: 0;width:100%;height:100%;float:left;position:relative;background:url(../image/bridgebg.png) center center no-repeat;z-index:1;}
+#wrapperMain li{height:50px;}
+#wrapperMain li img{width:48px; height:48px;float:left;margin:1px;}
+#wrapperMain li .chartCount{float:left;line-height:50px;width:45px;}
+#wrapperMain li .userId{line-height:50px;margin-left:20px;font-size:20px;font-weight:bold;}
+#wrapperMain li .chartPoint{position: absolute;line-height:30px;font-weight: bold;padding: .3em .5em;top:5px;right: 10px;
+-webkit-background-clip: padding-box;-moz-background-clip: padding;background-clip: padding-box;-moz-border-radius: 1em;-webkit-border-radius: 1em;border-radius: 1em;
+border: 1px solid #CCC;background: #EEE;font-weight: bold;color: #222;text-shadow: 0 1px 0 white;background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(#F1F1F1));background-image: -webkit-linear-gradient(white,#F1F1F1);background-image: -moz-linear-gradient(white,#F1F1F1);background-image: -ms-linear-gradient(white,#F1F1F1);background-image: -o-linear-gradient(white,#F1F1F1);background-image: linear-gradient(white,#F1F1F1);}
+//pointcolor:#e70057;
+*/
+/* chart page 
+#pageMain .wrapper {top: 0;width:100%;height:100%;float:left;position:relative;background:url(../image/bridgebg.png) center center no-repeat;z-index:1;}
+*/
+#pageMain .header .center{position:absolute;margin-top:3px; width:210px; height:inherit; line-height:120%; background:url('../image/facecharttitle.png') center top no-repeat; background-size:50% auto;}
+#pageMain .header #tournamentBtn{background:url('../image/fightbtn.png') center center no-repeat;background-size:90% auto;}
+#wrapperMain li{position:relative;height:58px;width:99%;padding:0;margin-top:1px;margin-bottom:1px;background-color:transparent;background-image:none;border:1px solid transparent;}
+#wrapperMain li div.chartCount{position:absolute;display:inline-block;top:0;left:0;height:58px;width:15%;background-repeat:no-repeat;background-color:transparent;background-size:contain;background-position:right;font-size:1.9em;text-align:right;color:#fff;}
+#wrapperMain li div.chartWhitebox{float:right;display:inline-block;top:0;height:58px;width:85%;background-color:#ffffff;}
+#wrapperMain li div.chartWhitebox img{float:left;margin-top:2px;margin-left:2px;height:54px;width:54px;}
+#wrapperMain li div.chartWhitebox span{float:left;display:inline-block;height:60px;line-height:60px; padding-left:.4em; font-size:1.1em; text-overflow:ellipsis; white-space:nowrap; text-align:left;max-width:45%;}
+#wrapperMain li div.chartWhitebox span.chartPoint{float:right;color:#e70057;font-size:1em; width:20%; padding-right:.6em; font-weight:normal; text-align:right;background-image:url('../image/heartbtn.png');background-size:30% auto;background-position:left 50%;background-repeat:no-repeat;}
+
+#wrapperMain a#chartMoreBtn{display:block;margin-top:10px;border-top:dotted 1px #ffffff;height:30px;width:inherit;padding:5%;background-repeat:no-repeat;background-position:center center;background-size:auto 50%;}
+#wrapperMain a#chartMoreBtn.roomMore{background-image:url('../image/chartmorebtn.png');}
+#wrapperMain a#chartMoreBtn.roomLast{background-image:url('../image/chartlastbtn.png');}
+
+
+/* room page */
+#pageRoom {background: #f1f1f1;  position: absolute;  left: 0;    z-index: 100;}
+#pageRoom .header#roomHeader .left .menu{background:url('../image/menubtn.png') center center no-repeat;background-size:50% auto;}
+#pageRoom .header#roomHeader .left .menu.pressed{background:url('../image/menubtnactive.png') center center no-repeat;}
+#pageRoom .header#roomHeader .center{position:absolute; width:210px; height:inherit; line-height:120%;}
+#pageRoom .header#roomHeader .center h2{position:relative;float:left;font-size:1.5em;width:55%; height:inherit; line-height:100%; font-weight:normal; text-align:right;}
+#pageRoom .header#roomHeader .center #sroom{position:relative;float:right;width:45%;height:100%;background:url('../image/sroom.png') 0 40% no-repeat; background-size:70% auto;}
+#pageRoom .header#roomHeader .right #uploadBtn{background:url('../image/uploadbtn.png') center center no-repeat;background-size:60% auto;}
+#pageRoom .header#roomHeader .right #uploadBtn.pressed{background:url('../image/uploadbtnactive.png') center center no-repeat;background-size:60% auto;}
+#pageRoom .header#replyHeader{display:none;}
+#pageRoom .header#replyHeader .left .back{background:url('../image/backbtn.png') center center no-repeat;background-size:50% auto;}
+#pageRoom .header#replyHeader .left .back.pressed{background:url('../image/backbtnactive.png') center center no-repeat;}
+#pageRoom .header#replyHeader .center{position:absolute;margin-top:3px; width:210px; height:inherit; line-height:120%; background:url('../image/titlereply.png') center top no-repeat; background-size:auto 80%;}
+
+#pageRoom ul div.roomMain{position:relative;width:inherit;min-height:200px;height:auto;background-repeat:no-repeat;background-size:100%;}
+#pageRoom ul div.roomMain .topBox{width:inherit;height:170px;background-repeat:no-repeat;background-size:50px 50px, 60px 60px;background-position:7px 113px, 0px 110px;}
+#pageRoom ul div.roomMain .bottomBox{width:94%;padding-left:3%;padding-right:3%;height:30px;line-height:200%;background-color:rgba(0,0,0,0.4);color:#fff;font-size:1.1em;}
+#pageRoom ul div.roomMain .bottomBox #totalpoint{display:inline-block; float:right; background-image:url('../image/button_heart.png'); background-repeat:no-repeat;background-size:contain;padding-left:30px;}
+
+#pageRoom ul:first-child > li{margin-top:5px;}
+#pageRoom ul li{margin:0 4px 4px; padding:0; line-height:20px; border:none; }
+#pageRoom ul li .roomMainRow{padding-bottom:1em;border: 1px solid #CCC;padding:2%;background-color:#ffffff;}
+#pageRoom ul li .roomMainRowImage{width:100%;}
+#pageRoom ul li .roomMainRow .liDate{line-height:20px; font-size:12px; color:#936;}
+#pageRoom ul li .roomMainRow .right{float:right;}
+#pageRoom ul li .roomMainRow .right span{display:inline-block; width:auto; height:20px;line-height:30px;background-size:20px 20px;font-size: 12px; padding-left:20px; color:#595959;}
+#pageRoom ul li .roomMainRow .right span.liPoints{background: url('../image/button_heart.png') no-repeat;}
+#pageRoom ul li .roomMainRow .right span.liComments{background: url('../image/button_balloon.png') no-repeat;}
+#pageRoom ul li .roomMainRow .right button#commentWrite{background: url('../image/replybtn.png') center center no-repeat;background-size:auto 100%;width:35px;height:30px;box-shadow:none;border:none;}
+#pageRoom ul li .roomMainRow .liTitle{display:inline-block; color:#3f3f3f; margin-left:0px; padding:1%; padding-bottom:.4em; width:98%; font-size:.9em; line-height:130%; border:#CC33FF; font-weight:bolder; both:clear;}
+
+#pageRoom ul li .roomCommentBox{border:1px solid #d9d9d9;border-radius:0px 15px 15px 15px;margin-left:10%;margin-top:2%;margin-bottom:7%;background-color:#ffffff;width:85%;padding:2%;}
+#pageRoom ul li .roomCommentRow{border-bottom:dotted 2px #cfcfcf;padding:1%;min-height:50px;line-height:20px;font-size: 12px; color:#700070;background-size:40px 40px; background-position:8px 5px; background-repeat:no-repeat;background-color:#ebebeb;}
+#pageRoom ul li .roomCommentRow:first-child{border-radius:0 10px 0 0;}
+#pageRoom ul li .roomCommentRow:last-child{border-bottom:none;border-radius:0 0 10px 10px;}
+#pageRoom ul li .roomCommentRowVisitorDate{margin-left:50px;}
+#pageRoom ul li .roomCommentRowVisitorDate .roomCommentRowVisitor{font-size:14px; font-weight:bold; color:#9d4c8c;}
+#pageRoom ul li .roomCommentRowVisitorDate .roomCommentRowDate{float:right;color:#8c8b8b;}
+#pageRoom ul li .roomCommentRowContent{margin-left:50px;color:#3f3f3f;}
+
+#pageRoom ul li .replyBox{width:98%;height:auto;background-color:#cccccc;display:none;margin:-1%;margin-top:3%;padding:2%;border-top:1px solid #cfcfcf;}
+#pageRoom ul li .replyBox input{width:75%;height:35px;font-size:1.1em;boder:1px solid #b0b0b0;padding-left:5px;}
+#pageRoom ul li .replyBox button{background:url('../image/replysendbtn.png') center center no-repeat;background-size:auto 100%;width:23%;border:none;box-shadow:none;float:right;margin-right:-3px;margin-top:0px;}
+#pageRoom ul li .replyBox button.pressed{background-image:url('../image/replysendbtnactive.png');}
+
+#pageRoom ul a#roomMoreBtn{display:block;border-top:dotted 1px #c9c9c9;height:30px;width:90%;padding:5%;background-repeat:no-repeat;background-position:center center;background-size:auto 50%;}
+#pageRoom ul a#roomMoreBtn.roomMore{background-image:url('../image/roommorebtn.png');}
+#pageRoom ul a#roomMoreBtn.roomLast{background-image:url('../image/roomlastbtn.png');}
+
+/* TournamentList page */
+/*
+#pageTournamentList .header .left .menu{background:url('../image/menubtn.png') center center no-repeat;background-size:50% auto;}
+#pageTournamentList .header .left .menu.pressed{background:url('../image/menubtnactive.png');}
+*/
+#pageTournamentList .header .left .back{background:url('../image/backbtn.png') center center no-repeat;background-size:50% auto;}
+#pageTournamentList .header .left .back.pressed{background:url('../image/backbtnactive.png') center center no-repeat;}
+#pageTournamentList .header .center{position:absolute;margin-top:3px; width:210px; height:inherit; line-height:120%; background:url('../image/tournamentlisttitle.png') center top no-repeat; background-size:80% auto;}
+#pageTournamentList .header .right .random{background:url('../image/randombtn.png') center center no-repeat;background-size:50% auto;}
+#pageTournamentList .header .right .random.pressed{background:url('../image/randombtnactive.png');}
+
+#pageTournamentList .wrapper{top:0;width:100%;height:100%;float:left;position:relative;background-color:#f0f0f0;}
+#pageTournamentList .wrapper li{background:url('../image/blueline.png') left center no-repeat;background-size:65px 59px;border:none;border-bottom:1px solid #48bded;height:59px;font-size:1.3em;padding-left:70px;line-height:60px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+#pageTournamentList .wrapper li:nth-child(even){background:url('../image/pinkline.png') left center no-repeat;border-bottom:1px solid #d84a92;}
+#pageTournamentList .wrapper li img{position:absolute;margin-left:-65px;height:80%;margin-top:10%;}
+
+/* TournamentBridge page */
+#pageTournamentBridge{position: absolute;  left: 0;    z-index: 100; background:url(../image/bridgebg.png) center center no-repeat;}
+#pageTournamentBridge #tournamentTitle{margin-top:10%;margin-left:24%;width:52%; height:50%;background-repeat:no-repeat; background-position:center center; background-size:contain;}
+#pageTournamentBridge #tournamentRoundName{position:absolute; top:15%; left:0; width:100%; height:20%; line-height:100%; font-size:160%; text-align:center; color:#ffffff; word-break:break-all;}
+#pageTournamentBridge #tournamentRoundFight{width:100%; height:20%;}
+#pageTournamentBridge #tournamentRoundFight *{width:50%;height:100%;background-size:60%;background-repeat:no-repeat;-moz-transition-duration:.5s;-webkit-transition-duration:.5s;-o-transition-duration:.5s;-ms-transition-duration:.5s;transition-duration:.5s;transition-timing-function:ease-in-out;}
+#pageTournamentBridge #tournamentRoundFight #leftPunch{background-image:url('../image/bridgeleft.png');background-position:-40% top; float:left;}
+#pageTournamentBridge #tournamentRoundFight #rightPunch{background-image:url('../image/bridgeright.png');background-position:140% top; float:right;}
+
+#pageTournamentBridge #tournamentRoundFight #leftPunch.move{background-position:100% top;}
+#pageTournamentBridge #tournamentRoundFight #rightPunch.move{background-position:0% top;}
+
+
+#pageTournamentGame{position: absolute;  left: 0; background:url(../image/bridgebg.png) center center no-repeat;}
+#pageTournamentGame *{-moz-transition-duration:.5s;-webkit-transition-duration:.5s;-o-transition-duration:.5s;-ms-transition-duration:.5s;transition-duration:.5s;transition-timing-function:ease;}
+#pageTournamentGame #tournamentVs{display:block; position:absolute; text-align:center; width:30%; height:15%; top:42%; left:35%; background:url('../image/vs.png') center center no-repeat; background-size:contain;z-index:2;}
+#pageTournamentGame .gameTop{position:absolute;top:0;background-color:#d11f7e;width:100%; height:48%;padding:2%;display:none;}
+#pageTournamentGame .gameBottom{position:absolute;top:50%;background-color:#48bced;width:100%; height:48%;padding:2%;display:none;}
+#pageTournamentGame .gameImgTop{width:96%; height:99%; background:left top; background-repeat:no-repeat;background-size:contain;}
+#pageTournamentGame .gameImgBottom{width:96%; height:99%; background-position:right bottom; background-repeat:no-repeat;background-size:contain;}
+#pageTournamentGame .hiden{opacity: 0;}
+#pageTournamentGame .winner{position:absolute;top:25%;z-index:1000;}
+
+#pageTournamentResult{position: absolute;  left: 0;    z-index: 100; background:url(../image/bridgebg.png) center center no-repeat;}
+#pageTournamentResult #resultTitle, #resultImg{width:96%;}
+#pageTournamentResult #resultTitle{margin:2%;height:15%; background:url('../image/winner.png') left bottom no-repeat;background-size:60% auto;}
+#pageTournamentResult #resultImg{margin-left:2%;border:2px solid #fff;height:50%;background-size:cover;}
+#pageTournamentResult button{box-shadow:none;border:none;}
+#pageTournamentResult #goRoomBtn{width:100%;height:15%;background:url('../image/winnersroom.png') center 5px no-repeat; background-size:60%;}
+#pageTournamentResult #goRoomBtn.pressed{background:url('../image/winnersroomactive.png') center 5px no-repeat;}
+#pageTournamentResult #goChartBtn, #goTournamentBtn{float:right;width:48%;height:10%;background-size:30%;background-position:-3% center;background-repeat:no-repeat;font-size:1.2em;font-style:italic;text-decoration:underline;}
+#pageTournamentResult #goChartBtn{background-image:url('../image/gochart.png');background-position:7% center;}
+#pageTournamentResult #goChartBtn.pressed{background-image:url('../image/gochartacrive.png');color:#982d51;}
+#pageTournamentResult #goTournamentBtn{background-image:url('../image/gogame.png');text-align:right;background-position:-4% center;}
+#pageTournamentResult #goTournamentBtn.pressed{background-image:url('../image/gogameacrive.png');color:#982d51;}
+

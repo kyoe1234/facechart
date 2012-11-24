@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<app-name>faceChart</app-name>
+	<app-name lang="en">faceChart</app-name>
+	<app-name lang="es">faceChart</app-name>
+	<app-name lang="ja">faceChart</app-name>
+	<app-name lang="ko">faceChart</app-name>
+	<app-name lang="zh">faceChart</app-name>
+</resources>

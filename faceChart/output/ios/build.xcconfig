@@ -1,0 +1,7 @@
+AX_FRAMEWORK = -framework Foundation -framework UIKit -framework CFNetwork -framework Security -framework CoreGraphics
+AX_LIB = -L"/Android/eclipse/plugins/com.appspresso.cli_1.0.0.201205071744/axhome/platforms/ios/lib" -lsqlite3 -lz -lchronometer-ios -lsail-ios
+PLUGIN_DYLIB = 
+PLUGIN_FRAMEWORK =  -framework MessageUI -framework SystemConfiguration
+PLUGIN_LIB =  -lax.ext.net -ldeviceapis -ldeviceapis.devicestatus
+PLUGIN_LIB_DIR =  -L"/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/ax.ext.net-1.1/lib/ios" -L"/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/deviceapis-1.1/lib/ios" -L"/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/deviceapis.devicestatus-1.1/lib/ios"
+OTHER_LDFLAGS = -ObjC $(AX_FRAMEWORK) $(AX_LIB) $(PLUGIN_DYLIB) $(PLUGIN_FRAMEWORK) $(PLUGIN_LIB) $(PLUGIN_LIB_DIR)

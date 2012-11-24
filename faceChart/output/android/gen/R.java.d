@@ -1,0 +1,24 @@
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/gen/com/kyokyo/facechart/R.java \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/gen/com/appspresso/screw/android/R.java \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/gen/com/appspresso/screw/net/R.java \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/gen/com/appspresso/waikiki/deviceapis/R.java \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/gen/com/appspresso/waikiki/devicestatus/R.java \
+ : /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-en/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-en/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-es/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-es/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-ja/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-ja/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-ko/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-ko/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-zh/ax_icon.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/drawable-zh/ax_splash.png \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values-en/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values-es/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values-ja/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values-ko/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/res/values-zh/ax_strings.xml \
+/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/android/AndroidManifest.xml \

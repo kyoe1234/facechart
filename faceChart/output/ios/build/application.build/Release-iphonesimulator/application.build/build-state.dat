@@ -1,0 +1,555 @@
+Tapplication
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Info.plist application/application-Info.plist
+cProcessPCH /var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch application/application-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application normal i386
+cGenerateDSYMFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/InfoPlist.strings application/en.lproj/InfoPlist.strings
+cCpResource application/assets build/application.app/assets
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/InfoPlist.strings application/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/InfoPlist.strings application/es.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/InfoPlist.strings application/es.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/InfoPlist.strings application/ja.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/InfoPlist.strings application/ja.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/InfoPlist.strings application/ko.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/InfoPlist.strings application/ko.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/InfoPlist.strings application/zh-Hans.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/InfoPlist.strings application/zh-Hans.lproj/InfoPlist.strings
+cCpResource application/es.lproj/Default.png build/application.app/es.lproj/Default.png
+cCpResource application/en.lproj/Default.png build/application.app/en.lproj/Default.png
+cCpResource application/ja.lproj/Default.png build/application.app/ja.lproj/Default.png
+cCpResource application/ko.lproj/Default.png build/application.app/ko.lproj/Default.png
+cCpResource application/en.lproj/Default@2x.png build/application.app/en.lproj/Default@2x.png
+cCpResource application/zh-Hans.lproj/Default.png build/application.app/zh-Hans.lproj/Default.png
+cCpResource application/es.lproj/Default@2x.png build/application.app/es.lproj/Default@2x.png
+cCpResource application/ja.lproj/Default@2x.png build/application.app/ja.lproj/Default@2x.png
+cCpResource application/ko.lproj/Default@2x.png build/application.app/ko.lproj/Default@2x.png
+cCpResource application/zh-Hans.lproj/Default@2x.png build/application.app/zh-Hans.lproj/Default@2x.png
+cCpResource application/Icon.png build/application.app/Icon.png
+cCpResource application/Icon-72.png build/application.app/Icon-72.png
+cCpResource application/Icon@2x.png build/application.app/Icon@2x.png
+cCpResource application/Icon@2x-72.png build/application.app/Icon@2x-72.png
+cCopyPlistFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/appspresso_config.plist appspresso_config.plist
+cTouch /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EF1FDD80000000000000110
+t1324482008
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F28F0000000000001534
+t1316156047
+s5428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E78066A0000000000000BCB
+t1316488810
+s3019
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/Availability.h
+c000000004E5C62D90000000000001B38
+t1314677465
+s6968
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon-72.png
+c000000004FE111410000000000001230
+t1340150081
+s4656
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon.png
+c000000004FE111410000000000000D7E
+t1340150081
+s3454
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon@2x-72.png
+c000000004FE1114100000000000037BD
+t1340150081
+s14269
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon@2x.png
+c000000004FE11141000000000000225D
+t1340150081
+s8797
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/application-Prefix.pch
+c000000004FE1114100000000000000E9
+t1340150081
+s233
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/assets
+c000000004FE1114100000000000000AA
+t1340150081
+s170
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/Default.png
+c000000004FE111410000000000001625
+t1340150081
+s5669
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/Default@2x.png
+c000000004FE111410000000000002815
+t1340150081
+s10261
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/InfoPlist.strings
+c000000004FE111410000000000000022
+t1340150081
+s34
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/Default.png
+c000000004FE11141000000000000168E
+t1340150081
+s5774
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/Default@2x.png
+c000000004FE111410000000000002916
+t1340150081
+s10518
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/InfoPlist.strings
+c000000004FE111410000000000000022
+t1340150081
+s34
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/Default.png
+c000000004FE111410000000000001684
+t1340150081
+s5764
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/Default@2x.png
+c000000004FE111410000000000002941
+t1340150081
+s10561
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/InfoPlist.strings
+c000000004FE111410000000000000022
+t1340150081
+s34
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/Default.png
+c000000004FE111410000000000001724
+t1340150081
+s5924
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/Default@2x.png
+c000000004FE111410000000000002ACC
+t1340150081
+s10956
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/InfoPlist.strings
+c000000004FE111410000000000000022
+t1340150081
+s34
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m
+c000000004FE111410000000000000101
+t1340150081
+s257
+i<UIKit/UIKit.h>
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/Default.png
+c000000004FE111410000000000001625
+t1340150081
+s5669
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/Default@2x.png
+c000000004FE111410000000000002822
+t1340150081
+s10274
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/InfoPlist.strings
+c000000004FE111410000000000000022
+t1340150081
+s34
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/appspresso_config.plist
+c000000004FE1114100000000000002FB
+t1340150081
+s763
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon-72.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon@2x-72.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Info.plist
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/PkgInfo
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/appspresso_config.plist
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/assets
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/Default.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/Default@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/Default.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/Default@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/Default.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/Default@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/Default.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/Default@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/Default.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/Default@2x.png
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/application.LinkFileList
+c000000004FE1114300000000000000A4
+t1340150083
+s164
+
+N/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch
+t1340081467
+s13931504
+
+Napplication/application-Info.plist
+c000000004FE111410000000000000611
+t1340150081
+s1553
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies737f01c34891b541^5c3c64c34891b541^---0#1#0#--18"Check dependencies36"9BE96738-1BA1-4091-BE9B-BD4474C20C56-
+
+CCompileC build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s361842884.216121
+e361842884.298981
+r1
+xCompileC
+xbuild/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m4b7337c44891b541^058a4cc44891b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m0000000000000000^2672"CompileC build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o application/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-generated-files.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-own-target-headers.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-all-target-headers.hmap -iquote /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-project-headers.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/include -I/Android/eclipse/plugins/com.appspresso.cli_1.0.0.201205071744/axhome/platforms/ios/headers -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/DerivedSources/i386 -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/DerivedSources -F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch -c /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/main.m -o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/main.o36"BA7CA952-BC29-40A5-9DE2-5127ED10DB80-
+
+CCopyPlistFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/appspresso_config.plist appspresso_config.plist
+s361842884.943270
+e361842884.947039
+r1
+xCopyPlistFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/appspresso_config.plist
+xappspresso_config.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy appspresso_config.plist508ff1c44891b541^8b71f2c44891b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/appspresso_config.plist0000000000000000^462"CopyPlistFile build/application.app/appspresso_config.plist appspresso_config.plist    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app -- appspresso_config.plist36"BA0D9B45-1B20-408F-AA67-1D27A019986E-
+
+CCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/InfoPlist.strings application/en.lproj/InfoPlist.strings
+s361842884.884714
+e361842884.891076
+r1
+xCopyStringsFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/InfoPlist.strings
+xapplication/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy application/en.lproj/InfoPlist.stringsb891e2c44891b541^9527e4c44891b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/InfoPlist.strings0000000000000000^547"CopyStringsFile build/application.app/en.lproj/InfoPlist.strings application/en.lproj/InfoPlist.strings    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj -- application/en.lproj/InfoPlist.strings36"D14C1718-2D8F-4D48-A75A-E91271E004D3-
+
+CCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/InfoPlist.strings application/es.lproj/InfoPlist.strings
+s361842884.889697
+e361842884.894705
+r1
+xCopyStringsFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/InfoPlist.strings
+xapplication/es.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy application/es.lproj/InfoPlist.stringsf0dce3c44891b541^d410e5c44891b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/InfoPlist.strings0000000000000000^547"CopyStringsFile build/application.app/es.lproj/InfoPlist.strings application/es.lproj/InfoPlist.strings    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj -- application/es.lproj/InfoPlist.strings36"733AC128-B4C8-433A-9F1F-1621B06DF02B-
+
+CCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/InfoPlist.strings application/ja.lproj/InfoPlist.strings
+s361842884.896050
+e361842884.900479
+r1
+xCopyStringsFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/InfoPlist.strings
+xapplication/ja.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy application/ja.lproj/InfoPlist.strings137ee5c44891b541^8885e6c44891b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/InfoPlist.strings0000000000000000^547"CopyStringsFile build/application.app/ja.lproj/InfoPlist.strings application/ja.lproj/InfoPlist.strings    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj -- application/ja.lproj/InfoPlist.strings36"D62E0F57-E080-4D7F-9F44-80032ABD82C0-
+
+CCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/InfoPlist.strings application/ko.lproj/InfoPlist.strings
+s361842884.901256
+e361842884.922317
+r1
+xCopyStringsFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/InfoPlist.strings
+xapplication/ko.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy application/ko.lproj/InfoPlist.stringscbdae6c44891b541^f628ecc44891b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/InfoPlist.strings0000000000000000^547"CopyStringsFile build/application.app/ko.lproj/InfoPlist.strings application/ko.lproj/InfoPlist.strings    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj -- application/ko.lproj/InfoPlist.strings36"1135E7FC-7CF2-4779-B949-555AE6BF73C7-
+
+CCopyStringsFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/InfoPlist.strings application/zh-Hans.lproj/InfoPlist.strings
+s361842884.904396
+e361842884.925875
+r1
+xCopyStringsFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/InfoPlist.strings
+xapplication/zh-Hans.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy application/zh-Hans.lproj/InfoPlist.strings33a3e7c44891b541^4013edc44891b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/InfoPlist.strings0000000000000000^567"CopyStringsFile build/application.app/zh-Hans.lproj/InfoPlist.strings application/zh-Hans.lproj/InfoPlist.strings    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj -- application/zh-Hans.lproj/InfoPlist.strings36"DD956D1D-3D41-4E6C-88CB-5C5B2DBD8381-
+
+CCpResource application/Icon-72.png build/application.app/Icon-72.png
+s361842884.939594
+e361842884.942122
+r1
+xCpResource
+xapplication/Icon-72.png
+xbuild/application.app/Icon-72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/application.app/Icon-72.png7fa0f0c44891b541^5e2ff1c44891b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon-72.png00f42c66dcffdf42^599"CpResource application/Icon-72.png build/application.app/Icon-72.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon-72.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"20A466B7-DED6-4085-AFD6-C5C4AF16B051-
+
+CCpResource application/Icon.png build/application.app/Icon.png
+s361842884.939572
+e361842884.943144
+r1
+xCpResource
+xapplication/Icon.png
+xbuild/application.app/Icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/application.app/Icon.png0aa0f0c44891b541^6972f1c44891b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon.png00f42c66dcffdf42^590"CpResource application/Icon.png build/application.app/Icon.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"75FBD220-3D22-4B08-87B7-2FEAF4B0E45B-
+
+CCpResource application/Icon@2x-72.png build/application.app/Icon@2x-72.png
+s361842884.941693
+e361842884.945135
+r1
+xCpResource
+xapplication/Icon@2x-72.png
+xbuild/application.app/Icon@2x-72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/application.app/Icon@2x-72.pngc72af1c44891b541^38f5f1c44891b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon@2x-72.png00f42c66dcffdf42^614"CpResource "application/Icon@2x-72.png" "build/application.app/Icon@2x-72.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon@2x-72.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"E726A5D3-8D89-47E7-8243-2ABD86A42FE1-
+
+CCpResource application/Icon@2x.png build/application.app/Icon@2x.png
+s361842884.939621
+e361842884.944044
+r1
+xCpResource
+xapplication/Icon@2x.png
+xbuild/application.app/Icon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/application.app/Icon@2x.png9ab5f0c44891b541^54adf1c44891b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Icon@2x.png00f42c66dcffdf42^605"CpResource "application/Icon@2x.png" "build/application.app/Icon@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/Icon@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"C0272453-0361-4359-81CC-B9356B089801-
+
+CCpResource application/assets build/application.app/assets
+s361842884.884344
+e361842884.928367
+r1
+xCpResource
+xapplication/assets
+xbuild/application.app/assets
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/application.app/assets6077e2c44891b541^e2abedc44891b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/assets00f42c66dcffdf42^584"CpResource application/assets build/application.app/assets    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/assets /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"AE46C0CF-17CF-4487-B097-8E684B2A94BD-
+
+CCpResource application/en.lproj/Default.png build/application.app/en.lproj/Default.png
+s361842884.926619
+e361842884.930340
+r1
+xCpResource
+xapplication/en.lproj/Default.png
+xbuild/application.app/en.lproj/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/application.app/en.lproj/Default.png4853edc44891b541^d02beec44891b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/Default.png00f42c66dcffdf42^635"CpResource application/en.lproj/Default.png build/application.app/en.lproj/Default.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/Default.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj36"D17112F4-6E1B-4344-A02F-96397B38187C-
+
+CCpResource application/en.lproj/Default@2x.png build/application.app/en.lproj/Default@2x.png
+s361842884.931519
+e361842884.934473
+r1
+xCpResource
+xapplication/en.lproj/Default@2x.png
+xbuild/application.app/en.lproj/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/application.app/en.lproj/Default@2x.png8b8ceec44891b541^363aefc44891b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj/Default@2x.png00f42c66dcffdf42^650"CpResource "application/en.lproj/Default@2x.png" "build/application.app/en.lproj/Default@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/en.lproj/Default@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/en.lproj36"6403E0C6-DC38-4FB3-9019-B81B8068C759-
+
+CCpResource application/es.lproj/Default.png build/application.app/es.lproj/Default.png
+s361842884.926611
+e361842884.930488
+r1
+xCpResource
+xapplication/es.lproj/Default.png
+xbuild/application.app/es.lproj/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/application.app/es.lproj/Default.png0d51edc44891b541^a036eec44891b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/Default.png00f42c66dcffdf42^635"CpResource application/es.lproj/Default.png build/application.app/es.lproj/Default.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/Default.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj36"36B899E7-D3DC-4C28-A836-40EC9AE66CFF-
+
+CCpResource application/es.lproj/Default@2x.png build/application.app/es.lproj/Default@2x.png
+s361842884.931881
+e361842884.938372
+r1
+xCpResource
+xapplication/es.lproj/Default@2x.png
+xbuild/application.app/es.lproj/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/application.app/es.lproj/Default@2x.png37a7eec44891b541^b343f0c44891b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj/Default@2x.png00f42c66dcffdf42^650"CpResource "application/es.lproj/Default@2x.png" "build/application.app/es.lproj/Default@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/es.lproj/Default@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/es.lproj36"B3A66A48-D2D8-4C4B-BFC6-8F21FED62A07-
+
+CCpResource application/ja.lproj/Default.png build/application.app/ja.lproj/Default.png
+s361842884.927136
+e361842884.931392
+r1
+xCpResource
+xapplication/ja.lproj/Default.png
+xbuild/application.app/ja.lproj/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/application.app/ja.lproj/Default.pngbd6eedc44891b541^d66feec44891b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/Default.png00f42c66dcffdf42^635"CpResource application/ja.lproj/Default.png build/application.app/ja.lproj/Default.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/Default.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj36"64B0701D-603E-4108-92FA-AE9F9B037651-
+
+CCpResource application/ja.lproj/Default@2x.png build/application.app/ja.lproj/Default@2x.png
+s361842884.935286
+e361842884.938939
+r1
+xCpResource
+xapplication/ja.lproj/Default@2x.png
+xbuild/application.app/ja.lproj/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/application.app/ja.lproj/Default@2x.pngc58defc44891b541^b75df0c44891b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj/Default@2x.png00f42c66dcffdf42^650"CpResource "application/ja.lproj/Default@2x.png" "build/application.app/ja.lproj/Default@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ja.lproj/Default@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ja.lproj36"A2838049-3F21-40F9-885B-9F4818C9E33F-
+
+CCpResource application/ko.lproj/Default.png build/application.app/ko.lproj/Default.png
+s361842884.929673
+e361842884.933887
+r1
+xCpResource
+xapplication/ko.lproj/Default.png
+xbuild/application.app/ko.lproj/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/application.app/ko.lproj/Default.pnge816eec44891b541^7b13efc44891b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/Default.png00f42c66dcffdf42^635"CpResource application/ko.lproj/Default.png build/application.app/ko.lproj/Default.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/Default.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj36"C4AF737C-4291-491D-B67B-B0A47FEF13B8-
+
+CCpResource application/ko.lproj/Default@2x.png build/application.app/ko.lproj/Default@2x.png
+s361842884.935959
+e361842884.939433
+r1
+xCpResource
+xapplication/ko.lproj/Default@2x.png
+xbuild/application.app/ko.lproj/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/application.app/ko.lproj/Default@2x.pngf7b0efc44891b541^787ff0c44891b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj/Default@2x.png00f42c66dcffdf42^650"CpResource "application/ko.lproj/Default@2x.png" "build/application.app/ko.lproj/Default@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/ko.lproj/Default@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/ko.lproj36"F959155B-36F8-4842-98FA-C2152174CF92-
+
+CCpResource application/zh-Hans.lproj/Default.png build/application.app/zh-Hans.lproj/Default.png
+s361842884.931517
+e361842884.936049
+r1
+xCpResource
+xapplication/zh-Hans.lproj/Default.png
+xbuild/application.app/zh-Hans.lproj/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/application.app/zh-Hans.lproj/Default.png8b8ceec44891b541^f9a0efc44891b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/Default.png00f42c66dcffdf42^655"CpResource application/zh-Hans.lproj/Default.png build/application.app/zh-Hans.lproj/Default.png    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/Default.png /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj36"BB32183B-FAD6-4FCA-973A-0F8181CE8CA5-
+
+CCpResource application/zh-Hans.lproj/Default@2x.png build/application.app/zh-Hans.lproj/Default@2x.png
+s361842884.937430
+e361842884.940514
+r1
+xCpResource
+xapplication/zh-Hans.lproj/Default@2x.png
+xbuild/application.app/zh-Hans.lproj/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/application.app/zh-Hans.lproj/Default@2x.png5513f0c44891b541^fcc5f0c44891b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj/Default@2x.png00f42c66dcffdf42^670"CpResource "application/zh-Hans.lproj/Default@2x.png" "build/application.app/zh-Hans.lproj/Default@2x.png"    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/zh-Hans.lproj/Default@2x.png" /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/zh-Hans.lproj36"0302CBEE-BB14-4E2D-B879-81AF949B6D65-
+
+CGenerateDSYMFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application
+s361842884.735108
+e361842884.876074
+r1
+xGenerateDSYMFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Generating /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM014dbcc44891b541^2046e0c44891b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM000080068b031042^573"GenerateDSYMFile build/Release-iphonesimulator/application.app.dSYM build/application.app/application    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application -o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/application.app.dSYM36"DB59284A-7948-491E-95A9-F5D780C4748D-
+
+CLd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application normal i386
+s361842884.305798
+e361842884.728101
+r1
+xLd
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application
+xnormal
+xi386
+old: warning: directory not found for option '-L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'
+old: warning: directory not found for option '-F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application446e4ec44891b541^5871bac44891b541^-298"ld: warning: directory not found for option '-L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'ld: warning: directory not found for option '-F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'2(21%IDEActivityLogMessage2@135"Directory not found for option '-L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'-361842884#0#149#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@135"Directory not found for option '-F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator'-361842884#149#149#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1782"Ld build/application.app/application normal i386    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator -L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios -F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator -filelist /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/Objects-normal/i386/application.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework Foundation -framework UIKit -framework CFNetwork -framework Security -framework CoreGraphics -L/Android/eclipse/plugins/com.appspresso.cli_1.0.0.201205071744/axhome/platforms/ios/lib -lsqlite3 -lz -lchronometer-ios -lsail-ios -framework MessageUI -framework SystemConfiguration -lax.ext.net -ldeviceapis -ldeviceapis.devicestatus -L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/ax.ext.net-1.1/lib/ios -L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/deviceapis-1.1/lib/ios -L/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/cache/deviceapis.devicestatus-1.1/lib/ios -o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/application36"ED337DC9-39F0-476E-9C42-25ADEE117A0E-
+
+CProcessInfoPlistFile /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Info.plist application/application-Info.plist
+s361842883.404394
+e361842883.410702
+r1
+xProcessInfoPlistFile
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Info.plist
+xapplication/application-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process application/application-Info.plist790768c34891b541^3e2369c34891b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/application-Info.plist0000000000000000^644"ProcessInfoPlistFile build/application.app/Info.plist application/application-Info.plist    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility application/application-Info.plist -genpkginfo /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app/Info.plist36"B43B405F-1656-4698-82A4-7077A84F20E7-
+
+CProcessPCH /var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch application/application-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s361842883.420491
+e361842884.209288
+r1
+xProcessPCH
+x/var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch
+xapplication/application-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile application/application-Prefix.pch14d16bc34891b541^299435c44891b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/application-Prefix.pch0000000000000000^2620"ProcessPCH /var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch application/application-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-generated-files.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-own-target-headers.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-all-target-headers.hmap -iquote /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/application-project-headers.hmap -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator/include -I/Android/eclipse/plugins/com.appspresso.cli_1.0.0.201205071744/axhome/platforms/ios/headers -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/DerivedSources/i386 -I/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.build/Release-iphonesimulator/application.build/DerivedSources -F/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -c /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/application/application-Prefix.pch -o /var/folders/d3/gc63vhrs0h73xpss4th4w2240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/application-Prefix-eifhzyhslyflshabnqrwxvxpjchz/application-Prefix.pch.gch36"3752D7E9-21E7-4722-BE4D-C2C4182D2BB7-
+
+CTouch /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app
+s361842884.955187
+e361842884.967391
+r1
+xTouch
+x/Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app3ca0f4c44891b541^e0bdf7c44891b541^---0#0#0#--352"Touch build/application.app    cd /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jaezinpark/Documents/hybridEdu/eclipseWork/faceChart/output/ios/build/application.app36"3C2F7F42-2ED4-43E5-87DD-C4B3B41F91EC-
+

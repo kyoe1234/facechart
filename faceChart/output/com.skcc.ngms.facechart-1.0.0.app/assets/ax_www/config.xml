@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:wac="http://wacapps.net/ns/widgets" id="http://facechart.kyokyo.com/faceChart" version="1.0.0" wac:min-version="2.0">
+     <name>faceChart</name>
+     <content src="tournament.html"/>
+     <icon src="widget-icon.png"/>
+     <feature name="http://wacapps.net/api/deviceapis"/>
+     <feature name="http://wacapps.net/api/devicestatus"/>
+     <feature name="http://wacapps.net/api/devicestatus.deviceinfo"/>
+     <feature name="http://wacapps.net/api/devicestatus.networkinfo"/>
+     <feature name="http://appspresso.com/api/ax.ext.net"/>
+</widget>

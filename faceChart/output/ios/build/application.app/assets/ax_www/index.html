@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="pragma" content="no-cache" />
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>faceChart</title>
+	
+	<!--시작화면조작시 <link rel="apple-touch-startup-image" href="loading.png" /> -->
+	
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	
+	<script src="/appspresso/appspresso.js"></script>
+	<script type="text/javascript" src="js/iscroll4/iscroll.js"></script>
+	
+	<script src="locale-language.js"></script>
+	
+	<!-- simple ui library -->
+	<script type="text/javascript" src="js/xx_page.js"></script>
+	<script type="text/javascript" src="js/xx_scroll.js"></script>
+	
+	<script type="text/javascript" src="js/app_main.js"></script>
+	<script>
+		//activate ax.log(), comment out when you release app
+		ax.runMode = ax.MODE_DEBUG;
+		ax.log("faceChart Start!!!");
+	</script>
+</head>
+<body onload="init();">
+<div class="bodyWrapper">
+	
+	<!-- page main -->
+	<div class="page" id="pageMain">
+		<div class="header">
+           <div class='left'><button class="hires menu"></button></div>
+           <div class='center'><h2>faceChart</h2></div>
+           <div class='right'><button id="testBtn" class='hires'>Room</button></div>
+		</div>
+		<div class="wrapper" id="wrapperMain">
+			<div class="scroller">
+				<ol class="content">
+					<li><span class="chartCount">1위.</span><img src="image/tmp/chart1.jpg"><span class="userId">수지</span><span class="chartPoint">1024</span></li>
+					<li><span class="chartCount">2위.</span><img src="image/tmp/chart2.jpg"><span class="userId">아이유</span><span class="chartPoint">1023</span></li>
+					<li><span class="chartCount">3위.</span><img src="image/tmp/chart3.jpg"><span class="userId">지연</span><span class="chartPoint">987</span></li>
+					<li><span class="chartCount">4위.</span><img src="image/tmp/chart4.jpg"><span class="userId">태연</span><span class="chartPoint">936</span></li>
+					<li><span class="chartCount">5위.</span><img src="image/tmp/chart5.jpg"><span class="userId">윤아</span><span class="chartPoint">888</span></li>
+					<li><span class="chartCount">6위.</span><img src="image/tmp/chart6.jpg"><span class="userId">제시카</span><span class="chartPoint">872</span></li>
+					<li><span class="chartCount">7위.</span><img src="image/tmp/chart7.jpg"><span class="userId">현아</span><span class="chartPoint">856</span></li>
+					<li><span class="chartCount">8위.</span><img src="image/tmp/chart8.jpg"><span class="userId">설리</span><span class="chartPoint">842</span></li>
+					<li><span class="chartCount">9위.</span><img src="image/tmp/chart9.jpg"><span class="userId">소연</span><span class="chartPoint">836</span></li>
+					<li><span class="chartCount">10위.</span><img src="image/tmp/chart10.jpg"><span class="userId">함은정</span><span class="chartPoint">828</span></li>
+					<li><span class="chartCount">11위.</span><img src="image/tmp/chart11.jpg"><span class="userId">티파니</span><span class="chartPoint">812</span></li>
+					<li><span class="chartCount">12위.</span><img src="image/tmp/chart12.jpg"><span class="userId">서현</span><span class="chartPoint">806</span></li>
+					<li><span class="chartCount">13위.</span><img src="image/tmp/chart13.jpg"><span class="userId">크리스탈</span><span class="chartPoint">802</span></li>
+					<li><span class="chartCount">14위.</span><img src="image/tmp/chart14.jpg"><span class="userId">효민</span><span class="chartPoint">796</span></li>
+					<li><span class="chartCount">15위.</span><img src="image/tmp/chart15.jpg"><span class="userId">유리</span><span class="chartPoint">787</span></li>
+					<li><span class="chartCount">16위.</span><img src="image/tmp/chart16.jpg"><span class="userId">강민경</span><span class="chartPoint">784</span></li>
+					<li><span class="chartCount">17위.</span><img src="image/tmp/chart17.jpg"><span class="userId">산다라박</span><span class="chartPoint">783</span></li>
+					<li><span class="chartCount">18위.</span><img src="image/tmp/chart18.jpg"><span class="userId">손나은</span><span class="chartPoint">781</span></li>
+					<li><span class="chartCount">19위.</span><img src="image/tmp/chart19.jpg"><span class="userId">한승연</span><span class="chartPoint">775</span></li>
+					<li><span class="chartCount">20위.</span><img src="image/tmp/chart20.jpg"><span class="userId">강지영</span><span class="chartPoint">772</span></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	
+	<!-- page menu -->
+	<div class="page" id="pageMenu">
+		<div class="header">
+           <div class='center'><span><input type="text" placeholder="tag" /></span></div>
+           <div class='right'><button id="testBtn" class='hires'>+</button></div>
+		</div>
+		<div class="wrapper" id="wrapperMenu">
+			<div class="scroller">
+				<div class="content">
+					<div class="menu-item d0">Cloud Tag</div>
+               		<div class="menu-item"><span>women</span><em class="cross"></em></div>
+               		<div class="menu-item"><span>star</span><em class="cross"></em></div>
+               		
+           			<div class="split"></div>
+
+               		<div class="menu-item d1 accelerometer"><span>Points</span><span class="count">72/893</span></div>
+           			<div class="menu-item d1 messaging"><span>Comments</span><span class="count">36/1024</span></div>
+           			
+           			<div class="menu-item d0">Favorite</div>
+           			<div class="menu-item"><span>Jaezin Park</span></div>
+           			<div class="menu-item"><span>Taejin Kim</span></div>
+           			<div class="menu-item"><span>Kiho Yi</span></div>
+           			<div class="menu-item"><span>Sewoo Yi</span></div>
+               		<div class="menu-item"><span>Haksu Yi</span></div>
+           		
+               		<div class="menu-item d0">Bookmark</div>
+           			<div class="menu-item d1 tagP"><span class="tag">kpop</span><span class="tag">girl</span><span class="tag">idol</span><span class="tag">singer</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">politicians</span><span class="tag">president</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">actor</span><span class="tag">hollywood</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">seoul</span><span class="tag">middleschool</span><span class="tag">3-2</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">michael</span><span class="tag">man</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">get</span></div>
+           			<div class="menu-item d1 tagP"><span class="tag">post</span></div>
+           		
+               		<div class="menu-item d0">SNS</div>
+           			<div class="menu-item d1 facebook"><span>Facebook</span><em class="demo"></em></div>
+           			<div class="menu-item d1 twitter"><span>Twitter</span><em class="demo"></em></div>
+           			<div class="menu-item d1 social-update"><span>Post to Social Network</span><em class="demo"></em></div>
+           			<div class="menu-item d1"><span>Kakao Tok</span><em class="demo"></em></div>
+           			
+           			<div class="menu-item" style="height: 50px;"></div>
+					
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="pageMenuCloseArea" onclick="toggleMenu();"></div>
+
+	<!-- page Room -->
+	<div class="page hide" id="pageRoom">
+		<div class="header">
+			<div class='center'><h2>faceRoom</h2></div>
+			<div class='right'><button onclick="goUploadPage();" class='hires'>Upload</button><button onclick="toggleRoom();" class='hires'>Close</button></div>
+		</div>
+		<div class="wrapper" id="wrapper_page_room">
+			<div class="scroller">
+				<ul class="content">
+					<!-- li>
+						<div class="roomMainRow">
+							<span class="liTitle"></span>
+							<span class="liDate"></span>
+							<span class="liPoints"></span>
+							<span class="liComments"></span>
+							<Button id="commentWrite"></Button>
+						</div>
+						<img class="roomMainRowImage" src="">
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor"></span>
+								<span class="roomCommentRowDate"></span>
+							</div>
+							<div class="roomCommentRowContent"></div>
+						</div>
+					</li> -->
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">Test</span>
+							<span class="liDate"></span>
+							<span class="liPoints"></span>
+							<span class="liComments"></span>
+							<Button id="commentWrite"></Button>
+						</div>
+						<img class="roomMainRowImage" id="imgTest">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">아이유의 faceRoom 이야기 첫번째</span>
+							<span class="liDate">2012/06/13 PM06</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">1</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu01.jpg">
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor">수지</span>
+								<span class="roomCommentRowDate">2012/06/13 AM11</span>
+							</div>
+							<div class="roomCommentRowContent">내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~</div>
+						</div>
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">쌈디 오빠랑 </span>
+							<span class="liDate">2012/06/13 AM11</span>
+							<div class="right">
+								<span class="liPoints">1042</span>
+								<span class="liComments">3</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu02.jpg">
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor">수지</span>
+								<span class="roomCommentRowDate">2012/06/13 AM11</span>
+							</div>
+							<div class="roomCommentRowContent">내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~내가 1등이지롱~</div>
+						</div>
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor">수지</span>
+								<span class="roomCommentRowDate">2012/06/13 PM12</span>
+							</div>
+							<div class="roomCommentRowContent">2등 안녕?</div>
+						</div>
+						<div class="roomCommentRow">
+							<div class="roomCommentRowVisitorDate">
+								<span class="roomCommentRowVisitor">수지</span>
+								<span class="roomCommentRowDate">2012/06/13 PM1</span>
+							</div>
+							<div class="roomCommentRowContent">반가워~ ㅋ</div>
+						</div>
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">썩소 </span>
+							<span class="liDate">2012/06/12 AM11</span>
+							<div class="right">
+								<span class="liPoints">10</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu03.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">뿔났어요</span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu04.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">뮤직뱅크 1등해서 감동</span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu05.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">알라뷰</span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu07.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">뿌잉뿌잉</span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu08.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">부었어요</span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu09.jpg">
+					</li>
+					<li>
+						<div class="roomMainRow">
+							<span class="liTitle">루나 언니랑 </span>
+							<span class="liDate">2012/06/11 PM09</span>
+							<div class="right">
+								<span class="liPoints">486</span>
+								<span class="liComments">0</span>
+								<Button class="commentWrite">write</Button>
+							</div>
+						</div>
+						<img class="roomMainRowImage" src="image/tmp/iu10.jpg">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- upload page 
+	<div class="page" id="pageUploadPhoto">
+		<div class="header">
+           <div class='center'><h2>upLoad</h2></div>
+           <div class='right'><button id="testBtn" class='hires'>Room</button></div>
+		</div>
+		<div class="wrapper" id="wrapperMain">
+			
+		</div>
+	</div>
+	-->
+</div>
+</body>
+</html>
