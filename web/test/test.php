@@ -6,4 +6,5 @@ echo 'test!!';
 echo 'test2!!';
 
 echo 'new test!';
+echo 'new tset2';
 ?>
